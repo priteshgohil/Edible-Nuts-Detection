@@ -1,3 +1,5 @@
+#Detect still frame for each video in the given folder and save the result in specific folder.
+
 import numpy as np
 import argparse
 import sys

@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{Viola2001}
+P.~{Viola} and M.~{Jones}.
+\newblock Rapid object detection using a boosted cascade of simple features.
+\newblock In {\em Proceedings of the 2001 IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition. CVPR 2001}, volume~1, pages I--I,
+  Dec 2001.
+
+\bibitem{Dalal2005}
+Navneet Dalal and Bill Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In {\em Proceedings of the 2005 IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition (CVPR’05) - Volume 1 - Volume 01},
+  CVPR ’05, page 886–893, USA, 2005. IEEE Computer Society.
+
+\bibitem{Herbert2006}
+Herbert Bay, Tinne Tuytelaars, and Luc Van~Gool.
+\newblock Surf: Speeded up robust features.
+\newblock In Ale{\v{s}} Leonardis, Horst Bischof, and Axel Pinz, editors, {\em
+  Computer Vision -- ECCV 2006}, pages 404--417, Berlin, Heidelberg, 2006.
+  Springer Berlin Heidelberg.
+
+\bibitem{Alex2012}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, {\em Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+
+\end{thebibliography}

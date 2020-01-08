@@ -1,3 +1,4 @@
+# This script reads the image from all the dataset folder, save rescaled image and label
 import torch.utils.data as data
 import numpy as np
 import glob
