@@ -1,4 +1,6 @@
 #Detect still frame for each video in the given folder and save the result in specific folder.
+#python frame_detection_withthreshold.py
+#python frame_detection_withthreshold.py --path '/media/pritesh/Entertainment/cvData/video.avi' --mode 1
 
 import numpy as np
 import argparse
@@ -57,21 +59,35 @@ def get_frame(vid_path, frame_num):
 
 def plot_for_report(vid_path, corr, kldiv,index, save_name, offset=12):
     im = get_frame(vid_path, index)
-    fig,((ax1, ax2), (ax3, ax4)) = plt.subplots(2,2,figsize=(15,10))
-    ax1.imshow(im)
-    ax2.plot(kldiv)
-    ax2.plot(corr)
-    ax2.axvline(index,color='red',label=index)
-    ax2.legend()
-
-    detected_frame = index+offset
-    im = get_frame(vid_path, detected_frame)
+    detected_frame = index + offset
+    
+    fig,((ax1, ax2, ax3)) = plt.subplots(1,3,figsize=(15,5))
+    ax1.plot(kldiv,label='KL_DIV')
+    ax1.plot(corr,label='CORR')
+    ymin, ymax = ax1.get_ylim()
+    
+    ax1.axvline(index,color='saddlebrown')
+    ax1.axvline(detected_frame,color='green')
+    ax1.text(index,ymin,index,bbox=dict(facecolor='saddlebrown', alpha=0.2))
+    ax1.text(detected_frame,ymin,detected_frame,bbox=dict(facecolor='green', alpha=0.2))
+    ax1.set_title('(a)')
+    ax1.set(xlabel='frames', ylabel='color histogram difference')
+    ax1.legend(loc=1)
+    
+    ax2.imshow(im)
+    ax2.set_xticks([])
+    ax2.set_yticks([])
+    ax2.set_title('(b)')
+    
+    im = get_frame(vid_path, index+12)
     ax3.imshow(im)
-    ax4.plot(kldiv)
-    ax4.plot(corr)
-    ax4.axvline(detected_frame,color='green',label=detected_frame)
-    ax4.legend()
-
+    #Get rid of x and y labels
+    ax3.set_xticks([])
+    ax3.set_yticks([])
+    ax3.set_title('(c)')
+    
+    #Adjust space between plot
+    plt.subplots_adjust(wspace=0.05, hspace=0)
     fig.savefig(save_name+"{}-{}.jpg".format(index, detected_frame))
     plt.clf()
 
@@ -128,7 +144,7 @@ if __name__ == "__main__":
 
     # folder to store the results
     result_folder = "../detected_frames/"
-    result_folder2 = "../detected_frames2/"
+    result_folder2 = "../results/detected_frames2_updated/"
     os.makedirs(result_folder2, exist_ok=True)
 
     if (opt.mode == 2):

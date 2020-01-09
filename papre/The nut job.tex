@@ -126,6 +126,17 @@ Explain Object detection
 
 
 Frame detection: 
+\# Logic
+
+1. find color histogram 
+2. calculate difference of color histogram between previous and current frame. $(cv2.HISTCMP\_CORREL \& cv2.HISTCMP_KL\_DIV)$
+3. we have two list of difference for entire video using two differnt methods
+4. perform element wise subtraction of correlation with klDivergence -> new list
+5. find value < 0. this is the frame with hands most of the time . add offset of 10 or 15 and you got it.
+6. With too dark video you will never get. So suggetion is amplify klDiv by 10 and check if (value <0 and index < 15)
+
+Write latex code or algorithm here
+
 perfect situation - 267, 303, 316
 low illumination - 282, 371, 12
 High illumination - 336
