@@ -1,0 +1,63 @@
+\begin{thebibliography}{1}
+
+\bibitem{Viola2001}
+P.~{Viola} and M.~{Jones}.
+\newblock Rapid object detection using a boosted cascade of simple features.
+\newblock In {\em Proceedings of the 2001 IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition. CVPR 2001}, volume~1, pages I--I,
+  Dec 2001.
+
+\bibitem{Dalal2005}
+Navneet Dalal and Bill Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In {\em Proceedings of the 2005 IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition (CVPR’05) - Volume 1 - Volume 01},
+  CVPR ’05, page 886–893, USA, 2005. IEEE Computer Society.
+
+\bibitem{Herbert2006}
+Herbert Bay, Tinne Tuytelaars, and Luc Van~Gool.
+\newblock Surf: Speeded up robust features.
+\newblock In Ale{\v{s}} Leonardis, Horst Bischof, and Axel Pinz, editors, {\em
+  Computer Vision -- ECCV 2006}, pages 404--417, Berlin, Heidelberg, 2006.
+  Springer Berlin Heidelberg.
+
+\bibitem{Alex2012}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, {\em Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+
+\bibitem{Huang2012}
+Kuo-Yi Huang.
+\newblock Detection and classification of areca nuts with machine vision.
+\newblock {\em Computers \& Mathematics with Applications}, 64(5):739 -- 746,
+  2012.
+\newblock Advanced Technologies in Computer, Consumer and Control.
+
+\bibitem{Narendra2018}
+Narendra~V G, Anita~S. Kini, and Anita~S. Kini.
+\newblock An intelligent classification model for peanut’s varieties by color
+  and texture features.
+\newblock {\em International Journal of Engineering \& Technology}, 7(2.27),
+  2018.
+
+\bibitem{Mehdi2019}
+Mehdi Abbaszadeh, Aliakbar Rahimifard, Mohammadali Eftekhari, and Hossein
+  Ghayoumi~Zadeh et~al.
+\newblock Deep learning-based classification of the defective pistachios via
+  deep autoencoder neural networks.
+\newblock {\em CoRR}, abs/1906.11878, 2019.
+
+\bibitem{Joseph2018}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em CoRR}, abs/1804.02767, 2018.
+
+\bibitem{yoloArch}
+CyberAILab.
+\newblock A closer look at yolov3, 2018.
+\newblock \url{https://www.cyberailab.com/home/a-closer-look-at-yolov3}, Last
+  accessed on 14-01-2020.
+
+\end{thebibliography}

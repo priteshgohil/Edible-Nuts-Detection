@@ -1,0 +1,176 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+
+@Article{Mehdi2019,
+  Title                    = {Deep Learning-Based Classification Of the Defective Pistachios Via
+ Deep Autoencoder Neural Networks},
+  Author                   = {Mehdi Abbaszadeh and
+ Aliakbar Rahimifard and
+ Mohammadali Eftekhari and
+ Hossein Ghayoumi Zadeh et al.},
+  Journal                  = {CoRR},
+  Year                     = {2019},
+  Volume                   = {abs/1906.11878},
+
+  Archiveprefix            = {arXiv},
+  Bibsource                = {dblp computer science bibliography, https://dblp.org},
+  Biburl                   = {https://dblp.org/rec/bib/journals/corr/abs-1906-11878},
+  Eprint                   = {1906.11878},
+  Timestamp                = {Mon, 01 Jul 2019 13:00:07 +0200},
+  Url                      = {http://arxiv.org/abs/1906.11878}
+}
+
+@InProceedings{Herbert2006,
+  Title                    = {SURF: Speeded Up Robust Features},
+  Author                   = {Bay, Herbert
+and Tuytelaars, Tinne
+and Van Gool, Luc},
+  Booktitle                = {Computer Vision -- ECCV 2006},
+  Year                     = {2006},
+
+  Address                  = {Berlin, Heidelberg},
+  Editor                   = {Leonardis, Ale{\v{s}}
+and Bischof, Horst
+and Pinz, Axel},
+  Pages                    = {404--417},
+  Publisher                = {Springer Berlin Heidelberg},
+
+  Abstract                 = {In this paper, we present a novel scale- and rotation-invariant interest point detector and descriptor, coined SURF (Speeded Up Robust Features). It approximates or even outperforms previously proposed schemes with respect to repeatability, distinctiveness, and robustness, yet can be computed and compared much faster.},
+  ISBN                     = {978-3-540-33833-8}
+}
+
+@Misc{yoloArch,
+  Title                    = {A Closer Look at YOLOv3},
+
+  Author                   = {CyberAILab},
+  Note                     = {\url{https://www.cyberailab.com/home/a-closer-look-at-yolov3}, Last accessed on 14-01-2020},
+  Year                     = {2018},
+
+  Owner                    = {pritesh},
+  Timestamp                = {2020.01.14}
+}
+
+@InProceedings{Dalal2005,
+  Title                    = {Histograms of Oriented Gradients for Human Detection},
+  Author                   = {Dalal, Navneet and Triggs, Bill},
+  Booktitle                = {Proceedings of the 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR’05) - Volume 1 - Volume 01},
+  Year                     = {2005},
+
+  Address                  = {USA},
+  Pages                    = {886–893},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {CVPR ’05},
+
+  Doi                      = {10.1109/CVPR.2005.177},
+  ISBN                     = {0769523722},
+  Numpages                 = {8},
+  Url                      = {https://doi.org/10.1109/CVPR.2005.177}
+}
+
+@Article{Narendra2018,
+  Title                    = {An intelligent classification model for peanut’s varieties  by color and texture features},
+  Author                   = {Narendra V G and Anita S. Kini and Anita S. Kini},
+  Journal                  = {International Journal of Engineering \& Technology},
+  Year                     = {2018},
+  Number                   = {2.27},
+  Volume                   = {7},
+
+  Owner                    = {pritesh},
+  Timestamp                = {2020.01.14},
+  Url                      = {https://www.sciencepubco.com/index.php/ijet/article/view/12473}
+}
+
+@Article{Huang2012,
+  Title                    = {Detection and classification of areca nuts with machine vision},
+  Author                   = {Kuo-Yi Huang},
+  Journal                  = {Computers \& Mathematics with Applications},
+  Year                     = {2012},
+  Note                     = {Advanced Technologies in Computer, Consumer and Control},
+  Number                   = {5},
+  Pages                    = {739 - 746},
+  Volume                   = {64},
+
+  Abstract                 = {In this study, we present an application of neural networks and image processing techniques for detecting and classifying the quality of areca nuts. Defects with diseases or insects of areca nuts were segmented by a detection line (DL) method. Six geometric features (i.e., the principle axis length, the secondary axis length, axis number, area, perimeter and compactness of the areca nut image), 3 color features (i.e., the mean gray level of an areca nut image on the R, G, and B bands), and defects area were used in the classification procedure. A back-propagation neural network classifier was employed to sort the quality of areca nuts. The methodology presented herein effectively works for classifying areca nuts to an accuracy of 90.9%.},
+  Doi                      = {https://doi.org/10.1016/j.camwa.2011.11.041},
+  ISSN                     = {0898-1221},
+  Keywords                 = {Areca nut, Neural network, Machine vision},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0898122111010248}
+}
+
+@InCollection{Alex2012,
+  Title                    = {ImageNet Classification with Deep Convolutional Neural Networks},
+  Author                   = {Alex Krizhevsky and Sutskever, Ilya and Hinton, Geoffrey E},
+  Booktitle                = {Advances in Neural Information Processing Systems 25},
+  Publisher                = {Curran Associates, Inc.},
+  Year                     = {2012},
+  Editor                   = {F. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger},
+  Pages                    = {1097--1105},
+
+  Url                      = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}
+}
+
+@Article{Timo2002,
+  Title                    = {Multiresolution Gray-Scale and Rotation Invariant Texture Classification with Local Binary Patterns},
+  Author                   = {Ojala, Timo and Pietik\"{a}inen, Matti and M\"{a}enp\"{a}\"{a}, Topi},
+  Journal                  = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  Year                     = {2002},
+
+  Month                    = jul,
+  Number                   = {7},
+  Pages                    = {971–987},
+  Volume                   = {24},
+
+  Address                  = {USA},
+  Doi                      = {10.1109/TPAMI.2002.1017623},
+  ISSN                     = {0162-8828},
+  Issue_date               = {July 2002},
+  Keywords                 = {histogram, Outex, Nonparametric, texture analysis, Brodatz, contrast., distribution},
+  Numpages                 = {17},
+  Publisher                = {IEEE Computer Society},
+  Url                      = {https://doi.org/10.1109/TPAMI.2002.1017623}
+}
+
+@InProceedings{Oren1998,
+  Title                    = {A general framework for object detection},
+  Author                   = {C. P. {Papageorgiou} and M. {Oren} and T. {Poggio}},
+  Booktitle                = {Sixth International Conference on Computer Vision (IEEE Cat. No.98CH36271)},
+  Year                     = {1998},
+  Month                    = {Jan},
+  Pages                    = {555-562},
+
+  Doi                      = {10.1109/ICCV.1998.710772},
+  ISSN                     = {null},
+  Keywords                 = {object detection;object recognition;learning (artificial intelligence);trainable framework;object detection;static images;cluttered scenes;wavelet representation;unconstrained environments;Object detection;Face detection;Layout;Wavelet analysis;Statistical analysis;Machine learning;Dictionaries;Support vector machines;Support vector machine classification;Detection algorithms}
+}
+
+@Article{Joseph2018,
+  Title                    = {YOLOv3: An Incremental Improvement},
+  Author                   = {Joseph Redmon and
+ Ali Farhadi},
+  Journal                  = {CoRR},
+  Year                     = {2018},
+  Volume                   = {abs/1804.02767},
+
+  Archiveprefix            = {arXiv},
+  Bibsource                = {dblp computer science bibliography, https://dblp.org},
+  Biburl                   = {https://dblp.org/rec/bib/journals/corr/abs-1804-02767},
+  Eprint                   = {1804.02767},
+  Timestamp                = {Mon, 13 Aug 2018 16:48:24 +0200},
+  Url                      = {http://arxiv.org/abs/1804.02767}
+}
+
+@InProceedings{Viola2001,
+  Title                    = {Rapid object detection using a boosted cascade of simple features},
+  Author                   = {P. {Viola} and M. {Jones}},
+  Booktitle                = {Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001},
+  Year                     = {2001},
+  Month                    = {Dec},
+  Pages                    = {I-I},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/CVPR.2001.990517},
+  ISSN                     = {1063-6919},
+  Keywords                 = {object detection;image classification;image representation;learning (artificial intelligence);feature extraction;rapid object detection;boosted simple feature cascade;machine learning;visual object detection;image processing;image representation;integral image;AdaBoost;classifiers;background regions;object specific focus-of-attention mechanism;statistical guarantees;face detection;real-time applications;Object detection;Face detection;Pixel;Detectors;Filters;Machine learning;Image representation;Focusing;Skin;Robustness}
+}
+
